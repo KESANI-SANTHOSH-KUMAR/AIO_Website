@@ -1,0 +1,16 @@
+#login.form{
+    border: 8px solid blanchedalmond;
+    border-radius: 25px;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+    font-size: 30px;
+    background-color:aqua;
+  
+}
+.s2:hover{
+    box-shadow: 0 0 15px rgba(7, 7, 7, 0.896);
+}
+p{
+    font-size: 1rem;
+}
