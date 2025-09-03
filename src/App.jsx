@@ -1,6 +1,6 @@
 
 import './App.css';
-import {BrowserRouter as Router,Routes,Route, useNavigate} from 'react-router-dom';
+import { HashRouter as Router,Routes,Route, useNavigate} from 'react-router-dom';
 import './login.css';
 import './register.css';
 import axios from "axios";
