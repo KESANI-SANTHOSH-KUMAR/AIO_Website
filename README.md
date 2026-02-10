@@ -1,43 +1,59 @@
-# 🌐 AIO Website (All-In-One Web Platform)
+# 🌐 AIO Website – All-In-One Web Platform  
+*(Express.js Backend + React Vite Frontend)*
 
-AIO Website is a multi-purpose web application designed to bring **entertainment, learning, and reading resources** into a single platform.  
-The project focuses on clean UI design, structured content presentation, and frontend development fundamentals.
-
----
-
-## 🎯 Project Objective
-The goal of this project is to build an **All-In-One (AIO) website** that demonstrates:
-- Frontend development skills
-- Content organization across multiple domains
-- Responsive and user-friendly web design
+AIO Website is a full-stack web application that combines **entertainment content, learning resources, and reading material** into a single platform.  
+The project demonstrates real-world **Express–React integration**, REST APIs, and modern frontend development using Vite.
 
 ---
 
-## 🧩 Key Modules
-- 🎬 Movies & Entertainment Section  
-- 💻 Programming / Learning Resources  
-- 📚 Books & Reading Content  
-- 🧭 Simple navigation between sections  
+## 🎯 Purpose of the Project
+This project was built to showcase:
+- Full-stack web development skills
+- REST API design using Express.js
+- Frontend architecture with React + Vite
+- Clean separation of backend and frontend
+- Scalable project structure
 
 ---
 
-## ✨ Features
-- Single platform for multiple content types
-- Clean and responsive UI
-- Easy navigation and layout
-- Beginner-friendly and extendable structure
-- Lightweight and fast loading
+## 🧠 Backend (Express.js)
+- Node.js with Express.js
+- RESTful API design
+- CORS configuration for frontend access
+- Modular routing structure
+- JSON-based data handling (can be extended to DB)
+- API endpoints serving content data
 
 ---
 
-## 🛠 Tech Stack
+## 🎨 Frontend (React + Vite)
+- Fast and lightweight React app using Vite
+- Component-based architecture
+- Axios for API communication
+- Responsive UI design
+- Structured pages for multiple content categories
+
+---
+
+## ✨ Key Features
+- Centralized platform for multiple content types
+- Dynamic content loading via backend APIs
+- Smooth navigation across sections
+- Clean and user-friendly interface
+- Easily extendable to authentication and database usage
+
+---
+
+## ⚙️ Tech Stack
 
 | Layer | Technology |
-|-----|-----------|
-| Frontend | HTML, CSS, JavaScript |
-| Styling | CSS3 |
-| Logic | Vanilla JavaScript |
-| Tools | VS Code, Git, Browser |
+|------|-----------|
+| Frontend | React + Vite |
+| Backend | Node.js + Express.js |
+| API | REST |
+| Styling | CSS |
+| HTTP Client | Axios |
+| Tools | VS Code, Git, Postman |
 
 ---
 
@@ -45,14 +61,77 @@ The goal of this project is to build an **All-In-One (AIO) website** that demons
 
 ```text
 AIO_Website/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── assets/
+├── frontend/
+│   ├── src/
+│   ├── components/
 │   ├── images/
-│   └── icons/
+|   ├── App.jsx
+|   ├── main.jsx
+|   ├── server.js
+│   └── package.json
+│
 └── README.md
 ```
 ---
+
+### ▶️ How to Run the Project
+## 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/KESANI-SANTHOSH-KUMAR/AIO_Website.git
+cd AIO_Website
+```
+## 2️⃣ Start Backend (Express)
+```bash
+cd backend
+npm install
+node server.js
+```
+
+Backend runs on:
+```bash
+http://localhost:5000
+```
+---
+## 3️⃣ Start Frontend (React + Vite)
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend runs on:
+```bash
+http://localhost:5173
+```
+---
+## 🧪 Usage
+
+- Open frontend in browser
+
+- Browse different content sections
+
+- Frontend fetches data from Express backend APIs
+
+- Acts as a base for larger content-driven platforms
+
+## 🔮 Future Enhancements
+
+- Database integration (MySQL / MongoDB)
+
+- User authentication
+
+- Admin content management
+
+- API caching
+
+- Deployment with Docker
+
+---
+
+
+## 👨‍💻 Author
+
+KESANI SANTHOSH KUMAR
+GitHub: https://github.com/KESANI-SANTHOSH-KUMAR
+
+
