@@ -1,12 +1,58 @@
-# React + Vite
+# 🌐 AIO Website (All-In-One Web Platform)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AIO Website is a multi-purpose web application designed to bring **entertainment, learning, and reading resources** into a single platform.  
+The project focuses on clean UI design, structured content presentation, and frontend development fundamentals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Project Objective
+The goal of this project is to build an **All-In-One (AIO) website** that demonstrates:
+- Frontend development skills
+- Content organization across multiple domains
+- Responsive and user-friendly web design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Key Modules
+- 🎬 Movies & Entertainment Section  
+- 💻 Programming / Learning Resources  
+- 📚 Books & Reading Content  
+- 🧭 Simple navigation between sections  
+
+---
+
+## ✨ Features
+- Single platform for multiple content types
+- Clean and responsive UI
+- Easy navigation and layout
+- Beginner-friendly and extendable structure
+- Lightweight and fast loading
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|-----|-----------|
+| Frontend | HTML, CSS, JavaScript |
+| Styling | CSS3 |
+| Logic | Vanilla JavaScript |
+| Tools | VS Code, Git, Browser |
+
+---
+
+## 📁 Project Structure
+
+```text
+AIO_Website/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── assets/
+│   ├── images/
+│   └── icons/
+└── README.md
+```
+---
